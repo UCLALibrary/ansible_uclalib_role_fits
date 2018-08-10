@@ -11,14 +11,14 @@ Requires Java already installed on the system.
 Role Variables
 --------------
 
-* fits_version - defines the version of FITS to download/install on the system
+* `fits_version` - defines the version of FITS to download/install on the system
 
 Dependencies
 ------------
 
 Any java installation should work, but this role was tested against:
 
-* uclalib_role_java (provides the Oracle version of Java)
+* `uclalib_role_java` (provides the Oracle version of Java)
 
 Example Playbook
 ----------------
