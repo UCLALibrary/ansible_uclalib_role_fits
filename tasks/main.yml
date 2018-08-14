@@ -16,7 +16,7 @@
 - name: Create FITS Symblink in User Path
   file:
     src: "{{ fits_install_path }}/fits.sh"
-    path: "{{ fits_user_path }}/fits"
+    path: "{{ fits_user_path }}/fits.sh"
     state: link
 
 - name: Ensure FITS is executable
