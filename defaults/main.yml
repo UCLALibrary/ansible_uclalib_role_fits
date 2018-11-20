@@ -14,6 +14,6 @@ fits_user_path: "/usr/local/bin"
 
 fits_tika_default_exclude_exts: "jar,avi,mov,mpg,mpeg,mkv,mp4,mpeg4,m2ts,mxf,ogv,mj2,divx,dv,m4v,m2v,ismv"
 
-fits_tika_additional_exclude_exts: "tif"
+fits_tika_additional_exclude_exts: ""
 
 fits_tika_exclude_exts: "{{ fits_tika_default_exclude_exts }}{{ ',' if fits_tika_additional_exclude_exts != '' else '' }}{{ fits_tika_additional_exclude_exts }}"
