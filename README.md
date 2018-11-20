@@ -12,6 +12,8 @@ Role Variables
 --------------
 
 * `fits_version` - defines the version of FITS to download/install on the system
+* `fits_tika_default_exclude_exts` - defines a comma separated list of the default file extensions the Tika library should exclude
+* `fits_tika_additional_exclude_exts` - defines a comma separated list of additional file extension the Tika library should exclude
 
 Dependencies
 ------------
