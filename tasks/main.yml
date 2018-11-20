@@ -24,3 +24,13 @@
     path: "{{ fits_install_path }}/fits.sh"
     state: file
     mode: 0755
+
+- name: Put in place FITS configuration file
+  template:
+    src: "fits_xml.j2"
+    dest: "{{ fits_install_path}}/xml/fits.xml"
+    owner: "root"
+    group: "root"
+    mode: "0644"
+  tags:
+    - fits-xml-config
