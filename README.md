@@ -15,6 +15,21 @@ Role Variables
 * `fits_tika_default_exclude_exts` - defines a comma separated list of the default file extensions the Tika library should exclude
 * `fits_tika_additional_exclude_exts` - defines a comma separated list of additional file extension the Tika library should exclude
 
+FITS Download URL Note
+----------------------
+
+The default value for the `fits_download_url` variable is:
+
+`http://projects.iq.harvard.edu/files/fits/files/fits-{{ fits_version }}.zip`
+
+If you are affiliated with UCLA, you have the option of overriding this default url value with:
+
+`http://pkgs.library.ucla.edu/fits/fits-{{ fits_version }}.zip`
+
+Versions of FITS available via the UCLA URL are:
+
+* `1.3.0`
+
 Dependencies
 ------------
 
